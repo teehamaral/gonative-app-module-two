@@ -1,4 +1,4 @@
-package com.appmoduletwo;
+package com.gonativecm2;
 
 import android.app.Application;
 
