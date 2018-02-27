@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import 'config/ReactotronConfig';
 
-import { View } from 'react-native';
+import createNavigator from 'routes';
 
-const App = () => (
-  <View />
-);
+export default class App extends Component {
+  render() {
+    const Routes = createNavigator();
 
-export default App;
+    return <Routes />;
+  }
+};
